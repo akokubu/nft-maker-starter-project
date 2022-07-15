@@ -35,3 +35,8 @@
     height: 100%;
     cursor: pointer;
   }
+
+  .imagePreview {
+    padding-top: 10px;
+    max-width: 40%;
+  }
