@@ -157,9 +157,11 @@ const NftUploader = () => {
           onChange={imageToNFT}
         />
       </Button>
-      <div>
-        <img src={imagePreview} alt="preview" className="imagePreview" />
-      </div>
+      {imagePreview && (
+        <div>
+          <img src={imagePreview} alt="preview" className="imagePreview" />
+        </div>
+      )}
     </div>
   );
 };
